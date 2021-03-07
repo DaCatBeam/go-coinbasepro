@@ -39,6 +39,11 @@ type Message struct {
 	UserID        string           `json:"user_id"`
 	ProfileID     string           `json:"profile_id"`
 	LastTradeID   int              `json:"last_trade_id"`
+	Open24h       string           `json:"open_24h"`
+	Volume24h     string           `json:"volume_24h"`
+	Low24h        string           `json:"low_24h"`
+	High24h       string           `json:"high_24h"`
+	Volume30d     string           `json:"volume_30d"`
 }
 
 type MessageChannel struct {
